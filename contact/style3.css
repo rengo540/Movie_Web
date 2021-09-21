@@ -1,0 +1,101 @@
+*
+{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+	box-sizing:bordr-box;
+}
+
+
+/* nav bar style  */
+nav
+{
+	background:#A9A9A9;
+	height:80px;
+	width:100%;
+	
+}
+
+label.namepage
+{
+	color:white;
+	font-size :50px;
+	font-weight:bold;
+	line-height:80px;
+	padding:0 100px 0 100px;
+	
+}
+nav ul 
+{
+	float:right;
+	margin-right:20px ;
+	
+}
+
+nav ul li 
+{
+	display:inline;
+	line-height:80px;
+	margin:0 30px 0 30px;
+}
+
+nav ul li a
+{
+	color:white;
+	font-size:18px;
+	text-transform:uppercase;
+	border-radius:5px; 
+	padding:10px 14px 10px 14px;
+	
+}
+
+a.active,a:hover 
+{
+	background:#696969;
+	transition:.5s; 
+}
+/*end nav bar*/
+
+section
+{ background: url(bg1.jpg) no-repeat;
+  background-size:cover;
+  height:calc(100vh - 80px);
+
+}
+
+
+.content .cont 
+{
+	background-color:white;
+	height:50%;
+	width:30%;
+	position:absolute;
+	right:35%;
+	top:20%;
+	
+}
+
+h2
+{
+	text-align:center;
+	text-transform:uppercase;
+	word-spacing:3px;
+	letter-spacing:2px;
+	padding-top:10px;
+}
+
+h3
+{
+	padding-top:20px;
+    padding-left:20px;
+    padding-bottom:10px;	
+}
+
+p
+{
+	padding:15px;
+	text-align:center;
+	
+}
+	
